@@ -1,3 +1,4 @@
+//O jogo está rodando somente no OnlineGDB
 #include <cstdlib>
 #include <cstring>
 #include <iostream>
