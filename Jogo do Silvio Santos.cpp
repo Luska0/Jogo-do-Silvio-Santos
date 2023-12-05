@@ -15,7 +15,6 @@ int erros = 0;
 char respCorreta[40];
 char respGamer; // respGamer = resposta do jogador;
 char forca[40];
-int L;
 int P;
 char dica[80];
 
@@ -24,12 +23,13 @@ bool jogoGanho = false; // ela vai indicar se o jogador ganhou ou nn
 
 cout << "O tema é: " ;
 cin >> dica;
-cout << "Digite apenas uma letra por vez" << endl;
+cout << "NÃO ESCREVA PALAVRAS COM ACENTO OU HÍFEN";
 cout << "palavra: ";
 cin >> respCorreta;
 system("clear");
 int N = strlen(respCorreta);// conta as letras de respCorreta
  cout << "A palavra tem " << N << " letras" << endl;
+ cout << "Digite apenas uma letra por vez" << endl;
  cout << "Advinhe:" << endl;
 
     for (int i = 0; i < N; i++) {
